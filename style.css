@@ -7,7 +7,12 @@ body {
 .cover {
   
   height:400px;
-  background:red;
+  background-image:url(https://cdn.glitch.com/36a50085-aa90-4545-a531-28afd83b6a6b%2Frsz_1adam-winger-fkazqqjtbxm-unsplash.jpg?v=1618721610201);
+  color:white;
+  background-size: cover;
+  background-position:center;
+  background-color:black;
+  background-blend-mode: darken;
   
   
 }
