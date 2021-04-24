@@ -205,4 +205,44 @@ footer{
   margin-top:20px;
   display:flex;
 }
-.roww
+.roww img{
+  width: 36px;
+  height: 36px;
+  
+}
+
+.roww label{
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #C7C7C7;
+  
+}
+
+.column3{
+  max-width: 400px;
+  
+}
+
+.column3 h1{
+  font-size: 22px;
+}
+
+.roww2{
+    margin-top:20px;
+  }
+
+.column3 .roww2{
+  margin-top:20px;
+  display:flex;
+}
+.roww2 img{
+  width: 36px;
+  height: 36px;
+  
+}
+
+.roww2 label{
+  margin-left: 15px;
+  color: #C7C7C7;
+  max-width:200px;
+}  
