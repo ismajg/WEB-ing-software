@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5{
 }
 
 
-.stripe-container{
+.stripe-container, .slider{
   display:flex;  
 }
 .stripe-container .card{
@@ -81,4 +81,15 @@ h1,h2,h3,h4,h5{
   
   a, span { color: #B1251E; }
   font-family: 'Fjalla One', sans-serif;
+}
+
+
+.image-container{
+  width:100%;
+  padding-top:56.25%;
+  background-size:cover;
+  background-postion:center;
+  flex-shrink:0;
+  
+  
 }
