@@ -43,14 +43,14 @@ h1,h2,h3,h4,h5{
 .alo{
   width:100%;
 }
-.product-stripe{
+.product-stripe, .slider{
   overflow-x:scroll;
   padding-top:1rem;
   padding-bottom:1rem;
 }
 
 
-.stripe-container, .slider{
+.stripe-container, .slider-container{
   display:flex;  
 }
 .stripe-container .card{
@@ -83,6 +83,14 @@ h1,h2,h3,h4,h5{
   font-family: 'Fjalla One', sans-serif;
 }
 
+.slider{
+  overflow-x:hidden;
+ 
+}
+.slider-container{
+   transform:translateX(0);
+  
+}
 
 .image-container{
   width:100%;
