@@ -161,16 +161,19 @@ footer{
   color: white;
   width:100%;
   
+  
 }
 
 .container-footer-all{
   width:100%;
-  max-width:1200px;
+  max-width:1600px;
   margin:auto;
+  padding: 40px;
 }
 
 .container-body{
   display:flex;
+  justify-content: space-between;
   
   
 }
@@ -244,5 +247,29 @@ footer{
 .roww2 label{
   margin-left: 15px;
   color: #C7C7C7;
-  max-width:200px;
+  max-width:220px;
+  margin-top:5px;
 }  
+
+.container-footer{
+  width:100%;
+  background: #101010;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  
+}
+
+.copyright{
+  color: #C7C7C7:
+}
+
+.copyright a{
+  color: #C7C7C7:
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+
+
