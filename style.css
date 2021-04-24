@@ -77,11 +77,6 @@ h1,h2,h3,h4,h5{
 }
 
 
-.a{
-  
-  color: #fff 
-  font-family: 'Fjalla One', sans-serif;
-}
 
 .slider{
   overflow-x:hidden;
@@ -146,4 +141,11 @@ h1,h2,h3,h4,h5{
   
   }
   
+}
+
+
+.nav-link active{
+  
+  color:white;
+  font-family: 'Fjalla One', sans-serif;
 }
