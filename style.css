@@ -3,6 +3,7 @@
 body {
   margin: 0em;
  font-family: 'Noto Sans', sans-serif;
+  background-color:#f6fafb;
   
   
 }
@@ -319,4 +320,9 @@ nav.navbar-dark{
    background-color:#db879d;
   color:white;
     
+}
+
+.titular2{
+    background-color:#f6fafb
+  
 }
