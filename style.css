@@ -310,3 +310,6 @@ footer{
     background-color:pink;
   
 }
+nav,.nav{
+  background-color:pink !important;
+}
