@@ -307,9 +307,15 @@ footer{
 
 
 .titular{
-    background-color:pink;
+    background-color:#db879d;
   
 }
-nav,.nav{
-  background-color:pink !important;
+
+nav.navbar-dark{
+  background-color:#db879d !important;
+}
+.btn{
+   background-color:#db879d;
+  color:white;
+    
 }
