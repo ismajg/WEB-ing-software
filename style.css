@@ -34,11 +34,7 @@ h5 {
   background-blend-mode: normal;
 }
 
-.slider {
-  max-width: max-content;
-  display: flex;
 
-}
 
 .slider .card {
   flex: 1;
@@ -114,13 +110,34 @@ justify-content: right;
 }
 
 .botonwhatsapp a{
-  justify-content: center;
-  width:200px;
+  
+  font-weight:200px;
+
+}
+.stripe-container, .slider-container{
+  display:flex;  
+  
+}
+
+.slider2{
+  overflow-x:hidden;
+}
+.slider-container{
+   transform:translateX(0);
+  animation: slider 10s infinite;
+  
+}
+
+.image-container{
+  width:100%;
+  padding-top:56.25%;
+  background-size:cover;
+  background-position:center;
+  flex-shrink:0;
 
 }
 
-
-@keyframes slider2 {
+@keyframes slider{
   0% {
     transform: translateX(0);
 
@@ -339,6 +356,3 @@ nav.navbar-dark {
   background-color: #f6fafb
 }
 
-.test{
-
-}

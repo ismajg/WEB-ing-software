@@ -38,7 +38,7 @@
   <header>
     <!---BARRA DE NAVEGACION--->
     <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top" style="background-color: #e3f2fd;">
-      <a class="navbar-brand ms-4" href="/">LOGO</a>
+      <img src="img/tejologo.png" width="60" height="50" class="navbar-brand ms-4 logotejo" href="/"></img>
 
       <ul class="nav">
 
@@ -56,16 +56,16 @@
           <a class="nav-link active" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#stripe">Servicios</a>
+          <a class="nav-link active" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#mapa">Ubicacion</a>
+          <a class="nav-link" href="#mapa">Ubicación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="acercade.html">Sobre nostros</a>
+          <a class="nav-link" href="acercade.html">Sobre nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="galeria.html">Galeria</a>
+          <a class="nav-link" href="galeria.html">Galería</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contacto">Contáctanos</a>
@@ -78,12 +78,12 @@
     <div class="cover d-flex justify-content-center align-items-center flex-column">
       <h1>
         <!---TITULO DE PORTADA--->
-        Nicole Trejo Peluqueria
+        Nicole Trejo Peluquería
 
       </h1>
 
       <p>
-        Peluqueria con servicio a domicilio
+        Peluquería con servicio a domicilio
 
 
       </p>
@@ -107,7 +107,7 @@
       <div class="d-flex justify-content-center align-items-center flex-column mb-5">
         <div class="mt-4 ">
           <h2>
-            En nuestra peluqueria a nos dedicamos a:
+            En nuestra peluquería a nos dedicamos a:
           </h2>
         </div>
 
@@ -142,8 +142,8 @@
                 style="background-image:url(https://cdn.glitch.com/36a50085-aa90-4545-a531-28afd83b6a6b%2Frsz_greg-kantra-xl1s-akslj4-unsplash.jpg?v=1618725504433)">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Maquillaje y uñas</h5>
-                <p class="card-text">Nos dedicamos tambien al maquillaje y a la manicura para que te sientas con estilo
+                <h5 class="card-title">Uñas y esmaltes</h5>
+                <p class="card-text">Nos dedicamos tambien a las uñas y los esmaltes permanentes para que te sientas con estilo
                   en cualquier parte.
                 </p>
               </div>
@@ -157,7 +157,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">Servicio a domicilio</h5>
-                <p class="card-text">Hacemos servicio total a domicilio en toda la region metropolitana.
+                <p class="card-text">Hacemos servicio total a domicilio en toda la región metropolitana.
                 </p>
               </div>
             </div>
@@ -169,13 +169,13 @@
     </div>
   </section>
 
-  <section>
+  <section >
 
     <!---TIRA DE PRODUCTOS--->
     <div class="titular">
       <div class="d-flex justify-content-center align-items-center flex-column mt-6 mb-2">
 
-        <div class="mt-5 ">
+        <div class="mt-5 " id="servicios">
           <h2>
             ¡Conoce nuestros servicios y elige el que mas se adecue a ti!
           </h2>
@@ -183,7 +183,7 @@
         <!---CARDS-->
 
 
-        <div class="slider owl-carousel">
+        <div class="slider owl-carousel ">
           <div class="card">
             <div class="img">
               <img
@@ -238,7 +238,7 @@
                 <br></br>
               </p>
               <div class="d-flex justify-content-center align-items-center flex-column mt-6 mb-2 botonwhatsapp">
-                <a href="https://imgbb.com/"><img src="img/BOTON-WHATSAPP2.png"  ></a>
+                <a href="https://api.whatsapp.com/send?phone=+56976910907&text=Hola,%20me%20interesa%20el%20servicio%20de%20esmaltado%20de%20u%C3%B1as."><img src="img/BOTON-WHATSAPP2.png"  ></a>
                 </div>
             </div>
           </div>
@@ -257,7 +257,7 @@
                 Incluye una manicure completa y luego un esculpido de acrílico con molde o tips en la forma que la cliente desee.
               </p>
              <div class="d-flex justify-content-center align-items-center flex-column mt-6 mb-2 botonwhatsapp">
-              <a href="https://imgbb.com/"><img src="img/BOTON-WHATSAPP2.png"  ></a>
+              <a href="https://api.whatsapp.com/send?phone=+56976910907&text=Hola,%20me%20interesa%20el%20servicio%20de%20u%C3%B1as%20acrilicas."><img src="img/BOTON-WHATSAPP2.png"  ></a>
               </div>
             </div>
           </div>
@@ -284,11 +284,27 @@
         </div>
 
         <script>
-          $(".slider").owlCarousel({
+            $(".slider").owlCarousel({
             loop: true,
             autoplay: true,
             autoplayTimeout: 2500, //2000ms = 2s;
             autoplayHoverPause: true,
+            responsive:{
+
+              0:{
+                items: 1,
+               
+              },
+              600:{
+                items:3,
+               
+              },
+              1000:{
+                items:3,
+               
+                loop:true
+              }
+            }
           });
         </script>
 
@@ -318,7 +334,7 @@
   <section>
 
     <!---INFORMACION DE UBICACION Y MAPA-->
-    <div class="container mt-5 mb-5" id="mapa">
+    <div class="container mt-5 mb-5 row align-items-center" id="mapa">
       <h4>
         Encuentranos aqui:
       </h4>
@@ -327,7 +343,7 @@
       </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6651.433927589771!2d-70.63977757852426!3d-33.534743743040245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da65a7705f8f%3A0x46944af9067460fc!2sPedro%20Aguirre%20Cerda%20Ote%2C%20Santiago%2C%20San%20Ram%C3%B3n%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1619068602986!5m2!1ses-419!2scl"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       
     </div>
   </section>
@@ -340,15 +356,13 @@
       <div class="container-body">
         <div class="column1">
           <h1>
-            Mas informacion de nuestra empresa
+            Más informacion de nuestra empresa
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id quam sed urna congue tincidunt.
-            Maecenas elementum dui eu ligula varius sodales vel non ante. Sed eu gravida justo.
-            Fusce imperdiet molestie est, sed rutrum metus cursus vitae.
-            Nunc et ligula non sapien hendrerit pulvinar.
-            Donec ut arcu in eros sollicitudin iaculis ut non lacus.
-            Aenean sagittis arcu eu ante commodo blandit. Sed ornare rhoncus faucibus.
+            En nuestra peluquería a domicilio te sentirás cómodo y en buenas manos, además da por seguro que cumpliremos todas tus expectativas, 
+            ya que contamos con 1 año de 
+            experiencia recorriendo todos los lugar de la región metropolitana brindando 
+            el mejor servicio que nuestras manos pueden ofrecer.
           </p>
         </div>
 
@@ -357,7 +371,7 @@
             Redes sociales
           </h1>
 
-          <div class="roww">
+          <div class="roww" id="contacto">
             
 
             <a href="https://imgbb.com/"><img src="img/logowhatsapp.png"> Contactanos en whatsapp</a>
@@ -395,16 +409,15 @@
     <div class="container-footer">
       <div class="footerr">
         <div class="copyright">
-          © 2021 Todos los derechos reservados
+          Nomad Studio | © 2021 Todos los derechos reservados | <a href="#"> </a>  
 
         </div>
 
         <div class="politicas">
 
-          <a href="acercade.html"> Informacion de la empresa</a> |
-          <a href="acercade.html">Privacion y politica</a> |
-          <a href="acercade.html">Terminos y condiciones</a>
-        </div>
+          <a href="acercade.html"> Información de la empresa</a> |
+          <a href="acercade.html">Privacidad y política</a> |
+          <a href="acercade.html">Términos y condiciones</a>   
       </div>
     </div>
 
