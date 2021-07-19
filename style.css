@@ -120,7 +120,7 @@ justify-content: right;
 }
 
 
-@keyframes slider {
+@keyframes slider2 {
   0% {
     transform: translateX(0);
 
@@ -340,5 +340,5 @@ nav.navbar-dark {
 }
 
 .test{
-  
+
 }
