@@ -82,21 +82,27 @@ h5 {
 }
 
 .card .content .btn {
+ 
   display: block;
-  text-align: left;
-  margin: 10px 0;
+  text-align: center;
+  border: white;
+  background-color: white;
+  
+}
+.card .content .botonwhatsapp {
+ 
+justify-content: right;
+  
 }
 
 .card .content .btn button {
-  background: #e74c3c;
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 17px;
-  padding: 5px 8px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s;
+
+  background-image: url('img/BOTON-WHATSAPP.png');
+  background-position: center;
+  height: 100px;
+  width: 260px;
+
+
 }
 
 .card .content .btn button:hover {
@@ -107,9 +113,11 @@ h5 {
   width: 100%;
 }
 
+.botonwhatsapp a{
+  justify-content: center;
+  width:200px;
 
-
-
+}
 
 
 @keyframes slider {
@@ -326,11 +334,6 @@ nav.navbar-dark {
   background-color: #db879d !important;
 }
 
-.btn {
-  background-color: #db879d;
-  color: white;
-
-}
 
 .titular2 {
   background-color: #f6fafb
